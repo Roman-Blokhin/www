@@ -1,0 +1,8 @@
+.button {
+    background-color: white;
+    margin: 5px; /* величина отступа от края экрана */
+    padding: 1rem 0.5rem;
+    text-align: right; /* в какой стороне будет текст */
+    border-radius: 1000px;
+}
+
