@@ -1,8 +1,13 @@
 .button {
     background-color: white;
     margin: 5px; /* величина отступа от края экрана */
-    padding: 1rem 0.5rem;
+    padding: 1rem 1rem;
     text-align: right; /* в какой стороне будет текст */
     border-radius: 1000px;
 }
 
+.style_logo { /* стиль для лого в хедере */
+    border: 5px;
+    width: 1500px;
+    height: 150px;
+}
