@@ -1,11 +1,12 @@
 <?php
-require "blocks/header.php";
+    $title = "Социальная сеть";
+    require "blocks/header.php";
 ?>
 
 <?php
-echo "<h1>Социальная сеть</h1>"
+    echo "<h1>Социальная сеть</h1>"
 ?>
 
 <?php
-require "blocks/footer.php";
+    require "blocks/footer.php";
 ?>
