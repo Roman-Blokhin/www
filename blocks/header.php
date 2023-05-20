@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-<header class="button">
+<header class="header_parameters">
     <img src="/img/facebook_logo.png" alt="facebook logo" class="style_logo">
+    <!-- alt покажет имя нашего логотипа, если картинка не сработает -->
 
     <a href="index.php">home</a>
     <a href="search.php">search</a>
