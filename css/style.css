@@ -6,6 +6,14 @@
     border-radius: 10px;
 }
 
+.header_parameters_2 {
+    background-color: white;
+    margin: 30px; /* величина отступа от края экрана */
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: left; /* в какой стороне будет текст */
+    border-radius: 10px;
+}
+
 .style_logo { /* стиль для лого в хедере */
     border: 5px;
     width: 1500px;

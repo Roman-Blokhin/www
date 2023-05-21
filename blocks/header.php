@@ -12,15 +12,15 @@
 </head>
 <body>
 <header class="header_parameters">
-    <img src="/img/facebook_logo.png" alt="facebook logo" class="style_logo">
+    <img src="/img/gra_logo.png" alt="gradient logo" class="style_logo">
     <!-- alt покажет имя нашего логотипа, если картинка не сработает -->
 
-    <a href="index.php">home</a>
-    <a href="search.php">search</a>
-    <a href="global.php">global</a>
-    <a href="social_net.php">social net</a>
-    <a href="invite.php">invite</a>
-    <a href="faq.php">faq</a>
-    <a href="log_out.php">log out</a>
+    <a href="index.php">Главная</a>
+    <a href="search.php">Поиск</a>
+    <a href="global.php">Глобальный</a>
+    <a href="social_net.php">Социальная сеть</a>
+    <a href="invite.php">Приглашение</a>
+    <a href="faq.php">Информация</a>
+    <a href="log_out.php">Выход</a>
     <hr>
 </header>
