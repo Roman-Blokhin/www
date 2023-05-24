@@ -22,5 +22,4 @@
     <a href="invite.php">Приглашение</a>
     <a href="faq.php">Информация</a>
     <a href="log_out.php">Выход</a>
-    <hr>
 </header>

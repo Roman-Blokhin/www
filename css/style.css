@@ -1,9 +1,10 @@
 .header_parameters {
     background-color: white;
-    margin: 5px; /* величина отступа от края экрана */
-    padding: 1rem 1rem;
+    /* margin: 5px; /* величина отступа от края экрана */
+    padding: 5px 5px 5px 5px;
     text-align: right; /* в какой стороне будет текст */
     border-radius: 10px;
+    border: 2px solid grey;
 }
 
 .header_parameters_2 {
@@ -16,6 +17,17 @@
 
 .style_logo { /* стиль для лого в хедере */
     border: 5px;
-    width: 1500px;
+    width: 1523px;
     height: 150px;
+}
+
+#aside {
+    position: absolute;
+    border: 4px solid grey;
+    right: 50px;
+    background: lightgray;
+    width: 70%;
+    height: 70%;
+    margin: 5px;
+
 }
