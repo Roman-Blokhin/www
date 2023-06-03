@@ -61,6 +61,15 @@
 .field_search {
     border-radius: 5px;
     font-size: 16px;
-    font: Georgian;
+    font-family: Georgian;
     padding: 5px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    background-color: lightgray;
 }

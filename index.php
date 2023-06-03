@@ -3,12 +3,13 @@
     require "blocks/header.php";
 ?>
 
+<nav>
     <form action="check_post.php" method="post" class="search_block">
         <input type="text" name="search" id="search" placeholder="Введите слово.." class="field_search"><br>
         <!-- <label for="search">Быстрый поиск</label> -->
         <input type="submit" value="Начать" class="search_button"><br>
-
     </form>
+</nav>
 
 <section> <!-- в работе -->
     <form id="aside">
