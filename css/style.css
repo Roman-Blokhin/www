@@ -65,11 +65,28 @@
     padding: 5px;
 }
 
+/* ссылки в шапке */
 .links {
     text-decoration: none;
     color: black;
 }
 
+/* наведение курсора на ссылки в шапке */
 .links:hover {
     background-color: lightgray;
+}
+
+/* подвал */
+footer {
+    text-align: center;
+}
+
+/* тело */
+body {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: deepskyblue;
+    height: 1000px;
 }

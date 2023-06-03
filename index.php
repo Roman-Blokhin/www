@@ -3,29 +3,21 @@
     require "blocks/header.php";
 ?>
 
-<nav>
-    <form action="check_post.php" method="post" class="search_block">
-        <input type="text" name="search" id="search" placeholder="Введите слово.." class="field_search"><br>
-        <!-- <label for="search">Быстрый поиск</label> -->
-        <input type="submit" value="Начать" class="search_button"><br>
-    </form>
-</nav>
+<main>
 
-<section> <!-- в работе -->
-    <form id="aside">
-        <fieldset>
-            <legend>Информация обо мне:</legend>
-        </fieldset>
-    </form>
-</section>
+    <section class="menu">
+        <a href="index.php" class="links">Моя страница</a>
+        <a href="news.php" class="links">Новости</a>
+        <a href="friends.php" class="links">Друзья</a>
+        <a href="groups.php" class="links">Сообщества</a>
+        <a href="fotoalbums.php" class="links">Фотографии</a>
+        <a href="music.php" class="links">Музыка</a>
+        <a href="feedback.php" class="links">Обратная связь</a>
+    </section>
 
-<nav> <!-- в работе -->
-    <p>Рано или поздно все получится!</p>
-</nav>
+</main>
 
-<?php
-    echo "<h1>Главная страница</h1>"
-?>
+
 
 <?php
     require "blocks/footer.php";
