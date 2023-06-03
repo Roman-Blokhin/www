@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-<header class="header_parameters">
-    <img src="/img/gra_logo.png" alt="gradient logo" class="style_logo">
-    <!-- alt покажет имя нашего логотипа, если картинка не сработает -->
+
+<header>
+
 </header>

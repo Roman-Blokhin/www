@@ -1,44 +1,4 @@
-/* шапка */
-.header_parameters {
-    background-color: white;
-    /* margin: 5px; /* величина отступа от края экрана */
-    padding: 5px 5px 5px 5px;
-    text-align: right; /* в какой стороне будет текст */
-    border-radius: 10px;
-    border: 2px solid grey;
-    margin: 10px 100px 10px 100px;
-    font-family: "Comic Sans MS";
-
-}
-
-/* картинка-логотип в шапке */
-.style_logo {
-    border: 5px;
-    width: 1305px;
-    height: 150px;
-}
-
-/* не используется */
-.header_parameters_2 {
-    background-color: white;
-    margin: 30px; /* величина отступа от края экрана */
-    padding: 1rem 1rem 1rem 1rem;
-    text-align: left; /* в какой стороне будет текст */
-    border-radius: 10px;
-}
-
-/* блок для отображения информации профиля */
-#aside {
-    position: absolute;
-    border: 4px solid grey;
-    right: 350px;
-    background: lightgray;
-    width: 40%;
-    height: 70%;
-    margin: 5px;
-}
-
-/* блок поиска */
+/* блок поиска - не используется */
 .search_block {
     /* border-style: dashed; */
     border: 1px solid black;
@@ -49,7 +9,7 @@
     font-family: "Comic Sans MS";
 }
 
-/* кнопка поиска */
+/* кнопка поиска - не используется */
 .search_button {
     border-radius: 5px;
     border: 1px solid black;
@@ -57,7 +17,7 @@
     padding: 5px;
 }
 
-/* поле ввода для поиска */
+/* поле ввода для поиска - не используется */
 .field_search {
     border-radius: 5px;
     font-size: 16px;
@@ -81,12 +41,25 @@ footer {
     text-align: center;
 }
 
-/* тело */
-body {
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 50px;
-    background-color: deepskyblue;
-    height: 1000px;
+/* шрифты для меню и подвала */
+.menu, footer {
+    font-family: Comic Sans MS;
+}
+
+main {
+    display: flex;
+}
+
+.manu {
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    flex: 2;
+}
+
+.line_1 {
+    width: 500px;
+    height: 300px;
+    background-color: darkgray;
 }
