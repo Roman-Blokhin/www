@@ -1,37 +1,11 @@
-/* блок поиска - не используется */
-.search_block {
-    /* border-style: dashed; */
-    border: 1px solid black;
-    border-radius: 10px;
-    text-align: center;
-    padding: 15px 5px 10px 5px;
-    margin: 10px 1150px 10px 100px;
-    font-family: "Comic Sans MS";
-}
 
-/* кнопка поиска - не используется */
-.search_button {
-    border-radius: 5px;
-    border: 1px solid black;
-    margin: 10px;
-    padding: 5px;
-}
-
-/* поле ввода для поиска - не используется */
-.field_search {
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: Georgian;
-    padding: 5px;
-}
-
-/* ссылки в шапке */
+/* ссылки в меню */
 .links {
     text-decoration: none;
     color: black;
 }
 
-/* наведение курсора на ссылки в шапке */
+/* наведение курсора на ссылки в меню */
 .links:hover {
     background-color: lightgray;
 }
@@ -39,27 +13,58 @@
 /* подвал */
 footer {
     text-align: center;
+    font-family: Comic Sans MS
 }
 
-/* шрифты для меню и подвала */
-.menu, footer {
-    font-family: Comic Sans MS;
-}
-
-main {
+main { /* главный контейнер */
     display: flex;
 }
 
-.manu {
+.menu { /* меню */
     width: 1000px;
     height: 300px;
     position: relative;
     left: 100px;
-    flex: 2;
+    top: 100px;
+    flex: 1;
+    font-family: Comic Sans MS
 }
 
-.line_1 {
+.line_1 { /* первая линия блоков, включая меню */
     width: 500px;
     height: 300px;
     background-color: darkgray;
+    flex: 3;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.header { /* шапка */
+    width: auto;
+    height: 60px;
+    background-color: lightgray;
+}
+
+/* блок поиска */
+.search_block {
+    padding: 0px 5px 5px 5px;
+    margin: 0px 600px 0px 50px;
+    font-family: "Comic Sans MS";
+    width: 400px;
+}
+
+/* кнопка поиска*/
+.search_button {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+/* поле ввода для поиска - не используется */
+.field_search {
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Comic Sans MS";
+    padding: 5px;
 }
