@@ -14,12 +14,19 @@
 <body>
 
 <header class="header">
+
+    <div>
+        <img src="img/cloud.png" alt="cloud_logo" class="cloud_logo">
+    </div>
+
     <div>
         <nav>
             <form action="check_post.php" method="post" class="search_block">
                 <input type="text" name="search" id="search" placeholder="Поиск.." class="field_search">
-                <input type="image" src="img/search.png" class="search_button">
+                <input type="submit" value="Начать"  class="search_button">
             </form>
         </nav>
     </div>
+
+
 </header>
