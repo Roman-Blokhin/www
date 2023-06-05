@@ -7,7 +7,7 @@
 
 /* наведение курсора на ссылки в меню */
 .links:hover {
-    background-color: lightgray;
+    color: red;
 }
 
 /* подвал */
@@ -32,8 +32,8 @@ main {
     font-family: Comic Sans MS
 }
 
-/* первая линия блоков, включая меню */
-.line_1 {
+/* index.php - первая линия блоков, включая меню */
+.index_div_line_1 {
     width: 500px;
     height: 300px;
     background-color: darkgray;
@@ -67,6 +67,11 @@ main {
     margin-top: 15px;
 }
 
+/* стиль при наведении на кнопку поиска */
+.search_button:hover {
+    color: red;
+}
+
 /* поле ввода для поиска */
 .field_search {
     border-radius: 5px;
@@ -80,4 +85,14 @@ main {
     margin: 0px  5px 25px 120px;
     padding_bottom: 30px;
     flex: 1;
+}
+
+/* feedback.php - первая линия блоков, включая меню */
+.feedback_div {
+    width: 500px;
+    height: 300px;
+    background-color: darkgray;
+    flex: 3;
+    margin: 20px;
+    border-radius: 10px;
 }
