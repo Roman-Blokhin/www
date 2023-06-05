@@ -1,3 +1,61 @@
+/* HEADER */
+
+.header {
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Comic Sans MS', serif;
+}
+
+/* блок поиска */
+.search_block {
+    padding: 0 5px 5px 5px;
+    margin: 0 500px 0 145px;
+    width: 400px;
+    flex: 1;
+}
+
+/* кнопка поиска*/
+.search_button {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 5px;
+}
+
+/* стиль при наведении на кнопку поиска */
+.search_button:hover {
+    color: red;
+}
+
+/* поле ввода для поиска */
+.field_search {
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 3px;
+    position: relative;
+    bottom: 5px;
+}
+
+/* логотип - облачко, в шапке */
+.cloud_logo {
+    margin: 0 5px 25px 100px;
+    padding_bottom: 40px;
+    flex: 1;
+}
+
+/* текст для логотипа */
+.logo_text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ---------------------------- */
 
 /* ссылки в меню */
 .links {
@@ -13,7 +71,10 @@
 /* подвал */
 footer {
     text-align: center;
-    font-family: Comic Sans MS
+    font-family: Comic Sans MS, serif;
+    position: fixed;
+    bottom: 0;
+    margin-left: 42%;
 }
 
 /* главный контейнер */
@@ -21,75 +82,29 @@ main {
     display: flex;
     position: relative;
     top: 70px;
+    font-family: Comic Sans MS, serif;
 }
 
 /* меню */
 .menu {
     width: 1000px;
-    height: 300px;
+    height: 200px;
     position: relative;
     left: 100px;
-    top: 100px;
+    top: 50px;
     flex: 1;
-    font-family: Comic Sans MS
+    font-family: Comic Sans MS, serif;
+    font-size: 18px;
 }
 
 /* index.php - первая линия блоков, включая меню */
 .index_div_line_1 {
-    width: 500px;
+    width: 300px;
     height: 300px;
     background-color: darkgray;
     flex: 3;
-    margin: 20px;
+    margin: 0 300px 0 115px;
     border-radius: 10px;
-}
-
-/* шапка */
-.header {
-    width: auto;
-    height: 60px;
-    background-color: lightgray;
-    display: flex;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-
-/* блок поиска */
-.search_block {
-    padding: 0px 5px 5px 5px;
-    margin: 0px 500px 0px 200px;
-    font-family: "Comic Sans MS";
-    width: 400px;
-    flex: 1;
-}
-
-/* кнопка поиска*/
-.search_button {
-    border-radius: 5px;
-    border: 1px solid black;
-    margin-left: 10px;
-    margin-top: 15px;
-}
-
-/* стиль при наведении на кнопку поиска */
-.search_button:hover {
-    color: red;
-}
-
-/* поле ввода для поиска */
-.field_search {
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: "Comic Sans MS";
-    padding: 5px;
-}
-
-/* логотип - облачко, в шапке */
-.cloud_logo {
-    margin: 0px  5px 25px 120px;
-    padding_bottom: 30px;
-    flex: 1;
 }
 
 /* feedback.php - первая линия блоков, включая меню */

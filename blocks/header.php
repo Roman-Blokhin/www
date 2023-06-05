@@ -16,7 +16,11 @@
 <header class="header">
 
     <div>
-        <img src="img/cloud.png" alt="cloud_logo" class="cloud_logo">
+        <img src="img/cloud1.png" alt="cloud_logo" class="cloud_logo">
+    </div>
+
+    <div class="logo_text">
+        <hi>Clouds</hi>
     </div>
 
     <div>
