@@ -19,6 +19,8 @@ footer {
 /* главный контейнер */
 main {
     display: flex;
+    position: relative;
+    top: 70px;
 }
 
 /* меню */
@@ -48,6 +50,9 @@ main {
     height: 60px;
     background-color: lightgray;
     display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 /* блок поиска */
