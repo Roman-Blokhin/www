@@ -1,4 +1,4 @@
-/* HEADER */
+/* ---------------- HEADER ---------------- */
 
 .header {
     height: 50px;
@@ -30,7 +30,7 @@
 
 /* стиль при наведении на кнопку поиска */
 .search_button:hover {
-    color: red;
+    box-shadow: 0 0 10px black;
 }
 
 /* поле ввода для поиска */
@@ -40,6 +40,11 @@
     padding: 3px;
     position: relative;
     bottom: 5px;
+}
+
+/* стиль при наведении на поле поиска */
+.field_search:hover {
+    box-shadow: 0 0 10px black;
 }
 
 /* логотип - облачко, в шапке */
@@ -55,37 +60,13 @@
     font-weight: bold;
 }
 
-/* ---------------------------- */
-
-/* ссылки в меню */
-.links {
-    text-decoration: none;
-    color: black;
+/* стиль при наведении на текст логотипа */
+.logo_text:hover {
+    text-shadow: 0 0 10px white;
 }
 
-/* наведение курсора на ссылки в меню */
-.links:hover {
-    color: red;
-}
+/* ---------------- MENU ---------------- */
 
-/* подвал */
-footer {
-    text-align: center;
-    font-family: Comic Sans MS, serif;
-    position: fixed;
-    bottom: 0;
-    margin-left: 42%;
-}
-
-/* главный контейнер */
-main {
-    display: flex;
-    position: relative;
-    top: 70px;
-    font-family: Comic Sans MS, serif;
-}
-
-/* меню */
 .menu {
     width: 1000px;
     height: 200px;
@@ -96,6 +77,37 @@ main {
     font-family: Comic Sans MS, serif;
     font-size: 18px;
 }
+/* ссылки в меню */
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+/* наведение курсора на ссылки в меню */
+.links:hover {
+    color: black;
+    text-shadow: 0 0 15px red;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    text-align: center;
+    font-family: Comic Sans MS, serif;
+    position: fixed;
+    bottom: 0;
+    margin-left: 42%;
+}
+
+/* ---------------- BODY ---------------- */
+
+/* главный контейнер */
+main {
+    display: flex;
+    position: relative;
+    top: 70px;
+    font-family: Comic Sans MS, serif;
+}
 
 /* index.php - первая линия блоков, включая меню */
 .index_div_line_1 {
@@ -105,6 +117,11 @@ main {
     flex: 3;
     margin: 0 300px 0 115px;
     border-radius: 10px;
+}
+
+/* стиль блока на первой линии при наведении курсора */
+.index_div_line_1:hover {
+    box-shadow: 0 0 10px black;
 }
 
 /* feedback.php - первая линия блоков, включая меню */
