@@ -8,6 +8,7 @@
     top: 0;
     width: 100%;
     font-family: 'Comic Sans MS', serif;
+    z-index: 1;
 }
 
 /* блок поиска */
@@ -89,16 +90,6 @@
     text-shadow: 0 0 15px black;
 }
 
-/* ---------------- FOOTER ---------------- */
-
-footer {
-    text-align: center;
-    font-family: Comic Sans MS, serif;
-    position: fixed;
-    bottom: 0;
-    margin-left: 42%;
-}
-
 /* ---------------- BODY ---------------- */
 
 /* главный контейнер main */
@@ -122,6 +113,21 @@ footer {
 /* стиль блока на первой линии при наведении курсора */
 .index_div_line_1:hover {
     box-shadow: 0 0 10px black;
+}
+
+#index_div_line_1_2 {
+    position: absolute;
+    flex: 4;
+    background-color: white;
+    height: 145px;
+    width: 832px;
+    margin: 150px 100px 0 400px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#index_div_line_1_2:hover {
+
 }
 
 /* вторая линия - основной контейнер */
@@ -188,4 +194,11 @@ footer {
     flex: 3;
     margin: 20px;
     border-radius: 10px;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    text-align: right;
+    font-family: Comic Sans MS, serif;
 }
