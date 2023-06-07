@@ -85,8 +85,8 @@
 
 /* наведение курсора на ссылки в меню */
 .links:hover {
-    color: black;
-    text-shadow: 0 0 15px red;
+    color: red;
+    text-shadow: 0 0 15px black;
 }
 
 /* ---------------- FOOTER ---------------- */
@@ -101,8 +101,8 @@ footer {
 
 /* ---------------- BODY ---------------- */
 
-/* главный контейнер */
-main {
+/* главный контейнер main */
+.index_div_1 {
     display: flex;
     position: relative;
     top: 70px;
@@ -123,6 +123,62 @@ main {
 .index_div_line_1:hover {
     box-shadow: 0 0 10px black;
 }
+
+/* вторая линия - основной контейнер */
+.index_div_2 {
+    display: flex;
+    position: relative;
+    top: 90px;
+    font-family: Comic Sans MS, serif;
+}
+
+/* index.php - вторая линия блоков (левый блок) */
+.index_div_line_2_1 {
+    width: 100px;
+    height: 300px;
+    background-color: darkgray;
+    flex: 1.5;
+    margin: 0 100px 0 395px;
+    border-radius: 10px;
+}
+
+/* стиль левого блока на второй линии при наведении курсора */
+.index_div_line_2_1:hover {
+    box-shadow: 0 0 10px black;
+}
+
+/* index.php - вторая линия блоков (правый верхний блок) */
+.index_div_line_2_2 {
+    width: 300px;
+    height: 100px;
+    background-color: darkgray;
+    flex: 1;
+    margin: 0 300px 0 -80px;
+    border-radius: 10px;
+}
+/* стиль правого верхнего блока на второй линии при наведении курсора */
+.index_div_line_2_2:hover {
+    box-shadow: 0 0 10px black;
+}
+
+/* index.php - вторая линия блоков (правый нижний блок) */
+.index_div_line_2_3 {
+    width: 327px;
+    height: 179px;
+    background-color: darkgray;
+    flex: 0.5;
+    margin: 120px 300px 0 -92px;
+    border-radius: 10px;
+    position: fixed;
+    left: 1000px;
+}
+
+/* стиль правого нижнего блока на второй линии при наведении курсора */
+.index_div_line_2_3:hover {
+    box-shadow: 0 0 10px black;
+}
+
+/* --------------------------- */
 
 /* feedback.php - первая линия блоков, включая меню */
 .feedback_div {
