@@ -3,7 +3,7 @@
     require "blocks/header.php";
 ?>
 
-<main>
+<main class="index_div_2">
 
     <?php
         require "blocks/menu.php"

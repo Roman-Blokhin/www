@@ -92,7 +92,7 @@
 
 /* ---------------- BODY ---------------- */
 
-/* главный контейнер main */
+/* index.php - главный контейнер main */
 .index_div_1 {
     display: flex;
     position: relative;
@@ -115,6 +115,7 @@
     box-shadow: 0 0 10px black;
 }
 
+/* белый блок поверх нашего основного блока на 1 линии */
 #index_div_line_1_2 {
     position: absolute;
     flex: 4;
@@ -124,10 +125,6 @@
     margin: 150px 100px 0 400px;
     border-radius: 10px;
     z-index: 1;
-}
-
-#index_div_line_1_2:hover {
-
 }
 
 /* вторая линия - основной контейнер */
@@ -144,7 +141,7 @@
     height: 300px;
     background-color: darkgray;
     flex: 1.5;
-    margin: 0 100px 0 395px;
+    margin: 20px 100px 0 395px;
     border-radius: 10px;
 }
 
@@ -159,7 +156,7 @@
     height: 100px;
     background-color: darkgray;
     flex: 1;
-    margin: 0 300px 0 -80px;
+    margin: 20px 300px 0 -80px;
     border-radius: 10px;
 }
 /* стиль правого верхнего блока на второй линии при наведении курсора */
@@ -173,7 +170,7 @@
     height: 179px;
     background-color: darkgray;
     flex: 0.5;
-    margin: 120px 300px 0 -92px;
+    margin: 140px 300px 0 -92px;
     border-radius: 10px;
     position: fixed;
     left: 1000px;
@@ -184,16 +181,29 @@
     box-shadow: 0 0 10px black;
 }
 
-/* --------------------------- */
+/* ---------------- FEEDBACK.PHP ---------------- */
+
+/* feedback.php - главный контейнер main */
+.index_div_2 {
+    display: flex;
+    position: relative;
+    top: 70px;
+    font-family: Comic Sans MS, serif;
+}
 
 /* feedback.php - первая линия блоков, включая меню */
 .feedback_div {
-    width: 500px;
+    width: 300px;
     height: 300px;
     background-color: darkgray;
     flex: 3;
-    margin: 20px;
+    margin: 0 400px 0 148px;
     border-radius: 10px;
+}
+
+/* стиль блока обратной связи при наведении */
+.feedback_div:hover {
+    box-shadow: 0 0 10px black;
 }
 
 /* ---------------- FOOTER ---------------- */
