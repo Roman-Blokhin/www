@@ -206,6 +206,15 @@
     box-shadow: 0 0 10px black;
 }
 
+/* стиль для полей ввода input в форме обратной связи */
+.input-style {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+}
+
 /* ---------------- FOOTER ---------------- */
 
 footer {
