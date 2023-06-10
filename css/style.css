@@ -102,7 +102,7 @@
 
 /* index.php - первая линия блоков, включая меню */
 .index_div_line_1 {
-    width: 300px;
+    position: relative; /* чтобы дочерний элемент нормально располагался на родителе */
     height: 300px;
     background-color: darkgray;
     flex: 3;
@@ -117,12 +117,12 @@
 
 /* белый блок поверх нашего основного блока на 1 линии */
 #index_div_line_1_2 {
-    position: absolute;
-    flex: 4;
+    position: absolute; /* другие блоки не замечают этот элемент */
+    flex: 1;
     background-color: white;
     height: 145px;
     width: 832px;
-    margin: 150px 100px 0 400px;
+    margin: 150px 100px 0 5px;
     border-radius: 10px;
     z-index: 1;
 }
@@ -197,8 +197,10 @@
     height: 300px;
     background-color: darkgray;
     flex: 3;
-    margin: 0 400px 0 148px;
+    margin: 0 400px 0 155px;
     border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+
 }
 
 /* стиль блока обратной связи при наведении */
@@ -213,6 +215,21 @@
     padding: 5px;
     border-radius: 7px;
     border: none;
+}
+
+/* кнопка: Отправить, в форме обратной связи */
+.feedback_button {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+/* стиль при наведении на кнопку: Отправить, в форме обр. связи */
+.feedback_button:hover {
+    box-shadow: 0 0 10px black;
 }
 
 /* ---------------- FOOTER ---------------- */
