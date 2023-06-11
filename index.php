@@ -9,10 +9,8 @@
         require "blocks/menu.php"
     ?>
 
-    <section class="index_div_line_1">
-        <section id="index_div_line_1_2"></section>
-    </section>
-
+    <section class="index_div_line_1"></section>
+    <section id="index_div_line_1_2"></section>
 
 </main>
 
@@ -22,6 +20,8 @@
     <section class="index_div_line_2_2"></section>
     <section class="index_div_line_2_3"></section>
 </div>
+
+
 
 
 <?php

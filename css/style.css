@@ -7,26 +7,30 @@
     position: fixed;
     top: 0;
     width: 100%;
+    margin-left: -10px;
     font-family: 'Comic Sans MS', serif;
     z-index: 1;
 }
 
 /* блок поиска */
 .search_block {
-    padding: 0 5px 5px 5px;
-    margin: 0 500px 0 145px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 500px 0 131px;
     width: 400px;
     flex: 1;
 }
 
 /* кнопка поиска*/
 .search_button {
+    font-size: 16px;
+    font-family: 'Comic Sans MS', serif;
+    padding: 3px 5px 3px 5px;
     border-radius: 5px;
     border: 1px solid black;
     margin-left: 10px;
     margin-top: 15px;
     position: relative;
-    bottom: 5px;
+    bottom: 10.5px;
 }
 
 /* стиль при наведении на кнопку поиска */
@@ -38,9 +42,10 @@
 .field_search {
     border-radius: 5px;
     font-size: 16px;
-    padding: 3px;
+    padding: 5px;
     position: relative;
-    bottom: 5px;
+    bottom: 11px;
+    font-family: 'Comic Sans MS', serif;
 }
 
 /* стиль при наведении на поле поиска */
@@ -50,7 +55,7 @@
 
 /* логотип - облачко, в шапке */
 .cloud_logo {
-    margin: 0 5px 25px 100px;
+    margin: 0 5px 25px 110px;
     padding_bottom: 40px;
     flex: 1;
 }
@@ -59,6 +64,8 @@
 .logo_text {
     font-size: 30px;
     font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 /* стиль при наведении на текст логотипа */
@@ -121,8 +128,8 @@
     flex: 1;
     background-color: white;
     height: 145px;
-    width: 832px;
-    margin: 150px 100px 0 5px;
+    width: 820px;
+    margin: 150px 100px 0 396px;
     border-radius: 10px;
     z-index: 1;
 }
@@ -141,7 +148,7 @@
     height: 300px;
     background-color: darkgray;
     flex: 1.5;
-    margin: 20px 100px 0 395px;
+    margin: 20px 100px 0 392px;
     border-radius: 10px;
 }
 
@@ -156,7 +163,7 @@
     height: 100px;
     background-color: darkgray;
     flex: 1;
-    margin: 20px 300px 0 -80px;
+    margin: 20px 300px 0 -85px;
     border-radius: 10px;
 }
 /* стиль правого верхнего блока на второй линии при наведении курсора */
@@ -166,11 +173,11 @@
 
 /* index.php - вторая линия блоков (правый нижний блок) */
 .index_div_line_2_3 {
-    width: 327px;
+    width: 325px;
     height: 179px;
     background-color: darkgray;
     flex: 0.5;
-    margin: 140px 300px 0 -92px;
+    margin: 140px 300px 0 -97px;
     border-radius: 10px;
     position: fixed;
     left: 1000px;
