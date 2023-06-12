@@ -11,7 +11,7 @@
 
     <div class="feedback_div">
         <form action="check_post.php" method="post">
-            <h5>Будем рады вашей обратной связи:</h5><br>
+            <h2 class="text_feedback">Будем рады вашей обратной связи:</h2><br>
             <input type="text" name="user_name" placeholder="Введите имя" class="input-style"><br>
             <input type="email" name="user_email" placeholder="Введите email" class="input-style"><br>
             <textarea name="user_message" placeholder="Введите сообщение" class="input-style"></textarea><br>

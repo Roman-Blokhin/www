@@ -201,13 +201,12 @@
 /* feedback.php - первая линия блоков, включая меню */
 .feedback_div {
     width: 300px;
-    height: 300px;
+    height: 315px;
     background-color: darkgray;
     flex: 3;
     margin: 0 400px 0 155px;
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
-
 }
 
 /* стиль блока обратной связи при наведении */
@@ -217,21 +216,30 @@
 
 /* стиль для полей ввода input в форме обратной связи */
 .input-style {
-    width: 100%;
-    margin-bottom: 15px;
+    width: 95%;
+    margin: 0px 10px 15px 10px;
     padding: 5px;
     border-radius: 7px;
     border: none;
+    font-size: 16px;
+    font-family: Comic Sans MS, serif;
+}
+
+.text_feedback {
+    padding-left: 10px;
 }
 
 /* кнопка: Отправить, в форме обратной связи */
 .feedback_button {
     border-radius: 5px;
     border: 1px solid black;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 10px;
+    padding: 4px;
     position: relative;
     bottom: 5px;
+    font-family: Comic Sans MS, serif;
+    font-size: 16px;
 }
 
 /* стиль при наведении на кнопку: Отправить, в форме обр. связи */
