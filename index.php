@@ -21,9 +21,10 @@
     <section class="index_div_line_2_3"></section>
 </div>
 
-
-
-
 <?php
     require "blocks/footer.php";
 ?>
+
+<div class="">
+    <p></p>
+</div>
