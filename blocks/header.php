@@ -32,4 +32,10 @@
         </nav>
     </div>
 
+    <div class="datetime_header">
+        <?php
+            echo $today = date ('d.m.y H:i');
+        ?>
+    </div>
+
 </header>

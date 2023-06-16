@@ -24,7 +24,3 @@
 <?php
     require "blocks/footer.php";
 ?>
-
-<div class="">
-    <p></p>
-</div>

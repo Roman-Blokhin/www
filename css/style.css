@@ -73,6 +73,19 @@
     text-shadow: 0 0 10px white;
 }
 
+/* стиль для блока с датой и временем */
+.datetime_header {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+/* стиль при наведении на дату и время */
+.datetime_header:hover {
+    text-shadow: 0 0 10px white;
+}
+
 /* ---------------- MENU ---------------- */
 
 .menu {
