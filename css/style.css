@@ -136,9 +136,9 @@
     box-shadow: 0 0 10px black;
 }
 
-/* белый блок поверх нашего основного блока на 1 линии */
-#index_div_line_1_2 {
-    position: absolute; /* другие блоки не замечают этот элемент */
+/* белый блок поверх нашего основного блока на 1 линии - выведен */ 
+/* #index_div_line_1_2 {
+    position: absolute; // другие блоки не замечают этот элемент
     flex: 1;
     background-color: white;
     height: 145px;
@@ -146,7 +146,8 @@
     margin: 150px 100px 0 396px;
     border-radius: 10px;
     z-index: 1;
-}
+} */
+
 
 /* вторая линия - основной контейнер */
 .index_div_2 {

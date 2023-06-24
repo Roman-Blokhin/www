@@ -10,7 +10,7 @@
     ?>
 
     <section class="index_div_line_1"></section>
-    <section id="index_div_line_1_2"></section>
+    <!-- <section id="index_div_line_1_2"></section> -->
 
 </main>
 
