@@ -25,7 +25,7 @@
 
     <div>
         <nav>
-            <form action="check_post.php" method="post" class="search_block">
+            <form action="check_post_search.php" method="post" class="search_block">
                 <input type="text" name="search" id="search" placeholder="Поиск.." class="field_search">
                 <input type="submit" value="Начать"  class="search_button">
             </form>
