@@ -16,7 +16,6 @@
 
 <div class="index_div_2">
     <section class="index_div_line_2_1"></section>
-
     <section class="index_div_line_2_2"></section>
     <section class="index_div_line_2_3"></section>
 </div>

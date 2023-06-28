@@ -269,3 +269,41 @@ footer {
     text-align: center;
     font-family: Comic Sans MS, serif;
 }
+
+/* ---------------- MUSIC ---------------- */
+
+.block_1 { /* создали блок, здесь будет меню */
+    height: 1000px;
+    widows: 1000px;
+    display: flex;
+    margin: 50px 200px 0 100px;
+    position: relative;
+}
+
+#column { /* расположили наш блок вертикально */
+    flex-direction: column;
+}
+
+.blocks_music_column_1 { /* прописали параметры контейнеров в первом вертикальном блоке */
+    background-color: lightgrey;
+    width: 150px;
+    height: 450px;
+    margin: 20px 0 0 0px;
+    border-radius: 20px;
+}
+
+.block_2 { /* создали второй блок */
+    height: 1000px;
+    widows: 1000px;
+    display: flex;
+    position: fixed;
+    margin-top: 50px;
+}
+
+.blocks_music_column_2 { /* прописали параметры контейнеров во втором вертикальном блоке */
+    background-color: lightgrey;
+    width: 700px;
+    height: 400px;
+    margin: 20px 0 0 300px;
+    border-radius: 20px;
+}
