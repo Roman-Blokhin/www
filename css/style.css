@@ -307,3 +307,41 @@ footer {
     margin: 20px 0 0 300px;
     border-radius: 20px;
 }
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.column {
+    flex: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.red_column {
+    background-color: red;
+    width: 150px;
+    height: 450px;
+    margin: 20px 0 0 0px;
+    border-radius: 20px;
+}
+
+.green_column {
+    background-color: green;
+    width: 150px;
+    height: 450px;
+    margin: 20px 0 0 100px;
+    border-radius: 20px;
+}
+
+.blue_column {
+    background-color: blue;
+    width: 150px;
+    height: 450px;
+    margin: 20px 0 0 200px;
+    border-radius: 20px;
+}
